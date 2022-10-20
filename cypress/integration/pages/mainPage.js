@@ -1,5 +1,4 @@
-
-class MainPage {
+export default class MainPage {
     static visit() {
         cy.visit("")
     }
@@ -25,5 +24,3 @@ class MainPage {
         MainPage.visit().contains("Book Store Application").click()
     }
 }
-
-export default MainPage

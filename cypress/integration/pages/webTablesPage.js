@@ -1,6 +1,6 @@
 import ElementsPage from "./elementsPage";
 
-class WebTablesPage extends ElementsPage {
+export default class WebTablesPage extends ElementsPage {
     static visit() {
         ElementsPage.webTables()
     }
@@ -16,5 +16,3 @@ class WebTablesPage extends ElementsPage {
         cy.get("#permanentAddress").type(data.permanentAddress)
     }
 }
-
-export default WebTablesPage

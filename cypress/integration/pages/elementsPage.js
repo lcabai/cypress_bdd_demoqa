@@ -5,7 +5,7 @@ const checkbox = "#item-1"
 const radioButton = "#item-2"
 const webTables = "#item-3"
 
-class ElementsPage {
+export default class ElementsPage {
     static visit() {
         MainPage.elements()
     }
@@ -31,5 +31,3 @@ class ElementsPage {
     }
 
 }
-
-export default ElementsPage

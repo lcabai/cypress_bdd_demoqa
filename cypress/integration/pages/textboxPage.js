@@ -1,6 +1,6 @@
 import ElementsPage from "./elementsPage";
 
-class TextboxPage extends ElementsPage {
+export default class TextboxPage extends ElementsPage {
     static visit() {
         ElementsPage.textbox()
     }
@@ -16,5 +16,3 @@ class TextboxPage extends ElementsPage {
         cy.get("#permanentAddress").type(data.permanentAddress)
     }
 }
-
-export default TextboxPage
