@@ -1,0 +1,7 @@
+{
+    "username": "username",
+    "email": "some.email@test.com",
+    "currentAddress": "current address",
+    "permanentAddress": "permanent address",
+    "invalidEmail": "invalid email address"
+}
