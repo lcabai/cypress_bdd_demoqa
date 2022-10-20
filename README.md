@@ -1,1 +1,1 @@
-# cypress_bdd_demoqa
+# BDD testing using cypress on demoqa.com demo site
